@@ -17,12 +17,6 @@ nav{
     margin-bottom: 5em;
 }
 
-.logo{
-    height: 5em;
-    width: 5%;
-    display: inline-block;
-}
-
 .menu {
     display: flex;
     padding:0;
@@ -56,4 +50,6 @@ div{
     width: 50%;
     margin-right: auto;
     margin-left: auto;
+    text-align: left;
+    text-align: justify;
 }
