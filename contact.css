@@ -1,0 +1,72 @@
+nav{
+    height: 10%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.menu {
+    display: flex;
+    padding:0;
+}
+
+.menu li {
+    list-style-type: none ;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    justify-content: flex-end;
+    display:flex;
+    min-width: 120px;
+    align-items: center;
+    text-decoration: none;
+    color: color(srgb 0.7494 0.7495 0.7496);
+}
+
+.boxmenu{
+    height: 10em;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: end;
+}
+
+
+
+#message{
+height: 20em;
+display: block;
+}
+
+section{
+    text-align: center;
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    text-align: justify;
+}
+
+form{
+background-color: #d05270;
+display: block;
+justify-content: center;
+align-items: center;
+padding: 20px;
+}
+
+#contact{
+background-color: rgb(255, 255, 255);
+
+}
+
+#blog {
+ color: #d05270
+
+}
+
+label{
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+  }

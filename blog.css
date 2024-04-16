@@ -1,17 +1,18 @@
 img{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    width: 200px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 
 .marge {
     margin: 70px;
 }
 .image {
-    width: 900px; /* Largeur souhaitée */
-    height: auto; /* Conserver les proportions de l'image */
-    display: block; /* Rend l'image un élément de bloc */
-    margin: 0 auto; /* Centre l'image horizontalement */
+    width: 900px; 
+    height: auto; 
+    display: block; 
+    margin: 0 auto; 
 }
 h1{
     font-family: "Abril Fatface", serif;
@@ -22,4 +23,94 @@ h2{
     font-family: "Montserrat", serif;
     color: blue;
     text-align: left;
+}
+h4{
+    font-family: "Montserrat", serif;
+    color: rosybrown;
+    text-align: left;
+    font-size: 36px;
+}
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
+nav{
+    height: 10%;
+    padding-left: 10%;
+    padding-right: 10%;
+    display: flex;
+    margin-bottom: 5%;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    padding:0;
+}
+
+.menu li {
+    list-style-type: none ;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    justify-content: flex-end;
+    display:flex;
+    min-width: 120px;
+    align-items: center;
+    text-decoration: none;
+    color: color(srgb 0.7494 0.7495 0.7496);
+}
+
+.boxmenu{
+    height: 10em;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    justify-content: end;
+}
+.container {
+    display: flex;
+    align-items: center; 
+}
+
+.left-content {
+    flex: 1; 
+}
+
+.right-content {
+    width: 10px;
+    height: auto;
+}
+
+.social-icons {
+    display: flex;
+}
+
+.social-icon {
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-align: center;
+    line-height: 50px;
+    margin-right: 10px;
+}
+.social{
+    width: auto;
+    height: 20px;
+    display: inline-block;
+    padding: 15px;
+    font-style: initial;
+    color: white;
+}
+section{
+    text-align: center;
+    width: 70%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: left;
+    text-align: justify;
 }
