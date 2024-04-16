@@ -5,6 +5,7 @@ body{
 
 h1{
     font-family: "Abril Fatface", serif;
+    text-align: center;
 }
 
 nav{
@@ -13,9 +14,36 @@ nav{
     height: 10em;
     padding-left: 5em;
     padding-right: 5em;
+    display: flex;
 }
 
 .logo{
-    height: 5em;
-    width: 5%;
+    display: inline-block;
+}
+
+.menu {
+    display: flex;
+    padding:0;
+}
+
+.menu li {
+    list-style-type: none ;
+    display: flex;
+    flex-direction: row;
+}
+
+.menu a {
+    justify-content: flex-end;
+    display:flex;
+    min-width: 120px;
+    align-items: center;
+}
+
+.boxmenu{
+    height: 10em;
+    width: 100%;
+    background-color: green;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
 }
