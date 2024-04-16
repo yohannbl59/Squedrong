@@ -38,11 +38,12 @@ nav{
 
 .menu a {
     justify-content: flex-end;
-    display:flex;
-    min-width: 120px;
+    display: flex;
+    width: auto;
     align-items: center;
     text-decoration: none;
     color: color(srgb 0.7494 0.7495 0.7496);
+    margin-left: 20px;
 }
 
 .boxmenu{
@@ -60,6 +61,7 @@ section{
     margin-left: auto;
     text-align: left;
     text-align: justify;
+    margin-bottom: 5%;
 }
 
 .social{
