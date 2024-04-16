@@ -18,6 +18,9 @@ nav{
 }
 
 .logo{
+    height: 5em;
+    width: 5%;
+}
     display: inline-block;
 }
 
