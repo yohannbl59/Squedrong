@@ -8,6 +8,7 @@ h1{
     color: #d05270;
     font-weight: normal;
     margin: 0;
+    font-size: 2.5em;
 }
 
 h2{
@@ -46,6 +47,14 @@ nav{
     margin-left: 20px;
 }
 
+.menu a:hover{
+    color: #5A47AB;
+}
+
+.menu li.active a {
+    color: #5A47AB;
+}
+
 .boxmenu{
     height: 10em;
     width: 100%;
@@ -55,11 +64,9 @@ nav{
 }
 
 section{
-    text-align: center;
     width: 75%;
     margin-right: auto;
     margin-left: auto;
-    text-align: left;
     text-align: justify;
     margin-bottom: 5%;
 }
@@ -84,4 +91,52 @@ section{
     background-repeat: no-repeat;
     justify-content: center;
 
+}
+
+.articles{
+    width: 49%;
+    display: inline-block;
+    justify-content: start;
+}
+
+.nom-articles{
+    font-size: 1.2em;
+    color: #d05270;
+    margin-bottom: 0.3em;
+}
+
+.image-articles{
+    background-size: cover;
+    background-position: center;
+    height: 293px;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.en-savoir-plus{
+    color: #d05270;
+}
+
+.en-savoir-plus-hr{
+    margin-top: 5px;
+    background-color: #d05270;
+    height: 1px;
+    width: 20%;
+}
+
+p{
+    color: #4a4a4a;
+}
+
+.date{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.5em;
+    margin-bottom: 1em;
+}
+
+.desc{
+    font-weight: lighter;
+    font-size: 0.9em;
+    margin-bottom: 1em;
 }

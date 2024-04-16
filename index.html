@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentUrl = window.location.href;
+            var menuLinks = document.querySelectorAll('.menu li a');
+            
+            menuLinks.forEach(function(link) {
+                if (link.href === currentUrl) {
+                    link.parentNode.classList.add('active');
+                }
+            });
+        });
+    </script>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,7 +48,7 @@
     </ul>
 </nav>
 
-<img src="images/illustration.png" style="width: 300px; float: right;">
+<img src="images/illustration.png" style="width: 280px; float: right;">
 <h1>Bienvenue sur le blog !</h1>
 <h2>Lorem ipsum</h2>
 <br><br>
@@ -49,8 +62,47 @@
     <div class="social" style="background-color:#000000"><i class="fa-brands fa-medium"></i> Medium</div>
 </section>
 
-<section>
-    test
+<section style="display: flex; justify-content: space-between;">
+
+    <div class="articles">
+        <div class="image-articles" style="background-image: url(images/illu_blog.png);"></div>
+        <p class="date">13 jan 2022</p>
+        <h2 class="nom-articles">Lorem ipsum dolor sit amet.</h2>
+        <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.</p>
+        <p class="en-savoir-plus">EN SAVOIR PLUS</p>
+        <div class="en-savoir-plus-hr"></div>
+    </div>
+
+        <div class="articles">
+            <div class="image-articles" style="background-image: url(images/image-article.jpeg);"></div>
+            <p class="date">13 jan 2022</p>
+            <h2 class="nom-articles">Lorem ipsum dolor sit amet.</h2>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.</p>
+            <p class="en-savoir-plus">EN SAVOIR PLUS</p>
+            <div class="en-savoir-plus-hr"></div>
+        </div>
+
+</section>
+
+<section style="display: flex; justify-content: space-between;">
+
+        <div class="articles">
+            <div class="image-articles" style="background-image: url(images/illu_blog.png);"></div>
+            <p class="date">13 jan 2022</p>
+            <h2 class="nom-articles">Lorem ipsum dolor sit amet.</h2>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.</p>
+            <p class="en-savoir-plus">EN SAVOIR PLUS</p>
+            <div class="en-savoir-plus-hr"></div>
+        </div>
+
+        <div class="articles">
+            <div class="image-articles" style="background-image: url(images/image-article.jpeg);"></div>
+            <p class="date">13 jan 2022</p>
+            <h2 class="nom-articles">Lorem ipsum dolor sit amet.</h2>
+            <p class="desc">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ultricies mi facilisis libero sollicitudin vulputate. Mauris facilisis vestibulum nisi, at viverra arcu interdum id.</p>
+            <p class="en-savoir-plus">EN SAVOIR PLUS</p>
+            <div class="en-savoir-plus-hr"></div>
+        </div>
 
 </section>
 </body>
