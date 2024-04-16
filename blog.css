@@ -1,0 +1,30 @@
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+div{
+    text-align: center;
+    margin: 50px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.marge {
+    margin: 70px;
+}
+.image {
+    width: 900px; /* Largeur souhaitée */
+    height: auto; /* Conserver les proportions de l'image */
+    display: block; /* Rend l'image un élément de bloc */
+    margin: 0 auto; /* Centre l'image horizontalement */
+}
+h1{
+    font-family: "Abril Fatface", serif;
+    color: rosybrown;
+    text-align: left;
+}
+h2{
+    font-family: "Montserrat", serif;
+    color: blue;
+    text-align: left;
+}
