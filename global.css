@@ -5,7 +5,8 @@
 
 h1{
     font-family: "Abril Fatface", serif;
-    text-align: center;
+    color: #d05270;
+    font-weight: normal;
 }
 
 nav{
@@ -13,6 +14,7 @@ nav{
     padding-left: 10em;
     padding-right: 10em;
     display: flex;
+    margin-bottom: 5em;
 }
 
 .logo{
