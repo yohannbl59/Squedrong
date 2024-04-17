@@ -124,6 +124,11 @@ section{
     width: 20%;
 }
 
+a {
+    color: #d05270;
+    text-decoration: none;
+}
+
 p{
     color: #4a4a4a;
 }
