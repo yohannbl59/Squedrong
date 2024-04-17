@@ -1,6 +1,18 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentUrl = window.location.href;
+            var menuLinks = document.querySelectorAll('.menu li a');
+            
+            menuLinks.forEach(function(link) {
+                if (link.href === currentUrl) {
+                    link.parentNode.classList.add('active');
+                }
+            });
+        });
+    </script>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="blog.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -15,9 +27,8 @@
 </head>
 <body>
     <section>
-    <nav>
-    
-            <img src="images/logo.png" style="height: auto; width: 85px ;" ></div>
+        <nav>
+            <img src="images/logo.png" style="height: auto;width: 85px;"></div>
         <div class="boxmenu">
         <ul class="menu">
             <li>
@@ -28,6 +39,9 @@
             </li>
             <li>
                 <a href="about.html">A propos</a>
+            </li>
+            <li>
+                <a href="contact.html">Me contacter</a>
             </li>
         </ul>
     </nav>

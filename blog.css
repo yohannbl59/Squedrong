@@ -9,7 +9,7 @@ img{
     margin: 70px;
 }
 .image {
-    width: 900px; 
+    width: 100%; 
     height: auto; 
     display: block; 
     margin: 0 auto; 
@@ -37,8 +37,6 @@ h4{
 
 nav{
     height: 10%;
-    padding-left: 10%;
-    padding-right: 10%;
     display: flex;
     margin-bottom: 5%;
     align-items: center;
@@ -57,11 +55,20 @@ nav{
 
 .menu a {
     justify-content: flex-end;
-    display:flex;
-    min-width: 120px;
+    display: flex;
+    width: auto;
     align-items: center;
     text-decoration: none;
     color: color(srgb 0.7494 0.7495 0.7496);
+    margin-left: 20px;
+}
+
+.menu a:hover{
+    color: #5A47AB;
+}
+
+.menu li.active a {
+    color: #5A47AB;
 }
 
 .boxmenu{
@@ -70,6 +77,14 @@ nav{
     display: flex;
     justify-items: center;
     justify-content: end;
+}
+
+section{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    margin-bottom: 5%;
 }
 .container {
     display: flex;
@@ -108,7 +123,7 @@ nav{
 }
 section{
     text-align: center;
-    width: 70%;
+    width: 75%;
     margin-right: auto;
     margin-left: auto;
     text-align: left;

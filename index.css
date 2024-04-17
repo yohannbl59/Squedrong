@@ -90,7 +90,7 @@ section{
     background-image: url(images/illustration.png);
     background-repeat: no-repeat;
     justify-content: center;
-
+    margin-left: 1%;
 }
 
 .articles{
