@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html lang="fr">
 <head>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            var currentUrl = window.location.href;
+            var menuLinks = document.querySelectorAll('.menu li a');
+            
+            menuLinks.forEach(function(link) {
+                if (link.href === currentUrl) {
+                    link.parentNode.classList.add('active');
+                }
+            });
+        });
+    </script>
+
     <meta charset="UTF-8">
     <link rel="stylesheet" href="contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -17,7 +30,7 @@
     <section>
 <nav>
     
-        <img src="images/logo.png" style="height: 118px;">
+    <img src="images/logo.png" style="height: auto;width: 85px;"></div>
     <div class="boxmenu">
     <ul class="menu">
         <li>
@@ -29,29 +42,35 @@
         <li>
             <a href="about.html">A propos</a>
         </li>
+        <li>
+            <a href="contact.html">Me contacter</a>
+        </li>
     </ul>
 </nav>
 </div>
 
 <h1 id="blog">Bienvenue sur le blog !</h1><br>
-<br>
-<h1 id="contact">Contactez-nous</h1>
-<form>
-    <img src="images/155477776-formulaire-de-contact-icône-fine-ligne-papier-et-stylo-graphiques-vectoriels-un-dessin-linéaire.jpg" style="width: 20%; float: right;" alt="">
 
-<label for="Name">Name:</label>
+<form>
+
+<label for="Name">Name : </label>
+<br>
 <input type="text" placeholder="Brandon Lorem"><br>
 <br>
-<Label for="Email">Email:</Label>
+<Label type="Email">Email : </Label>
+<br>
 <input type="text" placeholder="email@email.com"><br>
 <br>
-<label for="Num_tel">N° Tel:</label>
+<label for="Num_tel">N° Tel : </label>
+<br>
 <input type="tel" maxlength="10" placeholder="0698251032" pattern="[0-6]{2}-[0-9]{2}-[0-9]{2}[0-9]{2}[0-9]{2}"><br>
 <br>
-<label for="Objet">Objet:</label>
+<label for="Objet">Objet : </label>
+<br>
 <input type="text" placeholder="Objet"><br>
 <br>
-
+<label for="message">Votre message : </label>
+<br>
 <textarea  id="message" cols="60" rows="5"></textarea><br>
 <br>
 

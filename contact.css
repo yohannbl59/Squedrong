@@ -1,7 +1,13 @@
+*{
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+}
+
 nav{
     height: 10%;
     display: flex;
     margin-bottom: 5%;
+    align-items: center;
 }
 
 .menu {
@@ -17,11 +23,72 @@ nav{
 
 .menu a {
     justify-content: flex-end;
-    display:flex;
-    min-width: 120px;
+    display: flex;
+    width: auto;
     align-items: center;
     text-decoration: none;
     color: color(srgb 0.7494 0.7495 0.7496);
+    margin-left: 20px;
+}
+
+.menu a:hover{
+    color: #5A47AB;
+}
+
+.menu li.active a {
+    color: #5A47AB;
+}
+
+
+#message{
+height: 20em;
+display: block;
+}
+
+section{
+    width: 75%;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: justify;
+    margin-bottom: 5%;
+}
+
+form{
+background-color: #d05270;
+display: block;
+justify-content: center;
+align-items: center;
+padding: 20px;
+border-radius: 20px;
+font-family: "Montserrat", sans-serif;
+}
+
+
+
+#contact{
+background-color: rgb(255, 255, 255);
+}
+
+
+#blog {
+font-family: "Abril Fatface", serif;
+color: #d05270;
+font-weight: normal;
+margin: 0;
+font-size: 2.5em;
+}
+
+
+label{
+    font-optical-sizing: auto;
+  }
+
+#submit {
+padding: 10px;
+background-color: rgb(255, 216, 216);
+border: none;
+border-radius: 15px;
+width: 40%;
 }
 
 .boxmenu{
@@ -32,58 +99,6 @@ nav{
     justify-content: end;
 }
 
-
-
-#message{
-height: 20em;
-display: block;
-}
-
-section{
-    text-align: center;
-    width: 75%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: left;
-    text-align: justify;
-}
-
-form{
-background-color: #d05270;
-display: block;
-justify-content: center;
-align-items: center;
-padding: 20px;
-border-radius: 20px;
-}
-
-
-
-#contact{
-background-color: rgb(255, 255, 255);
-
-}
-
-
-#blog {
- color: #d05270
-
-}
-
-
-
-
-label{
-    font-family: "Montserrat", sans-serif;
-    font-optical-sizing: auto;
-  }
-
-#submit {
-
-padding: 10px;
-background-color: rgb(255, 216, 216);
-border: none;
-border-radius: 15px;
-width: 40%;
-
+input{
+    width: 50%;
 }
