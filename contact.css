@@ -27,7 +27,7 @@ nav{
     width: auto;
     align-items: center;
     text-decoration: none;
-    color: color(srgb 0.7494 0.7495 0.7496);
+    color: gray;
     margin-left: 20px;
 }
 
@@ -78,9 +78,7 @@ margin: 0;
 font-size: 2.5em;
 }
 
-
 label{
-    font-optical-sizing: auto;
     color: white;
     font-weight: bold;
   }
