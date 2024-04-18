@@ -61,6 +61,8 @@ align-items: center;
 padding: 20px;
 border-radius: 20px;
 font-family: "Montserrat", sans-serif;
+margin-left: auto;
+margin-right: auto;
 }
 
 
@@ -89,7 +91,7 @@ background-color: white;
 color: #d05270;
 border: none;
 border-radius: 15px;
-width: 52.9%;
+width: 105%;
 font-weight: bold;
 }
 
@@ -114,7 +116,7 @@ font-weight: bold;
 }
 
 input{
-    width: 50%;
+    width: 100%;
     border-radius: 20px;
     border-style: solid;
     border-width: 2px;
@@ -128,12 +130,11 @@ input{
 
 textarea {
     border-width: 2px;
-    max-width: 50%;
-    min-width: 50%;
+    max-width: 102.5%;
+    min-width: 102.5%;
     border-radius: 20px 20px 0px 20px;
     border-style: solid;
     border-color: white;
-    padding: 10px;
     font-size: 12px;
     background-color: transparent;
     color: white;
@@ -141,16 +142,6 @@ textarea {
 
   ::placeholder{
     color: rgba(255, 255, 255, 0.563);
-  }
-
-  .image-contact{
-    width: 40%;
-    height: 94vh;
-    background-image: url(images/imagecontact.png);
-    float: right;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    background-position: center;
   }
 
   footer{
@@ -171,4 +162,11 @@ textarea {
     margin-right: auto;
     margin-top: 10px;
     margin-bottom: 10px;
+}
+
+.formulaire{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-right: 22px;
 }
